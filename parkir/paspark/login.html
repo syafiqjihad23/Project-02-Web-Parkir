@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <title>Web Parkir STT NF</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- nice selecy -->
+  <link rel="stylesheet" href="css/nice-select.min.css">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <div class="bg-box">
+      <img src="lahan parkir.jpg" alt="">
+    </div>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              WEB PARKIR STT NF
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="layanan.html">Layanan <span class="sr-only">(current)</span> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Registrasi Parkir.html">Registrasi Kendaraan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">login</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Parkir | Log in</title>
+  
+    <!-- Google Font: Source Sans Pro -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+    <!-- icheck bootstrap -->
+    <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  </head>
+  <body class="hold-transition login-page">
+    <br><br>
+  <div class="login-box">
+    <!-- /.login-logo -->
+    <div class="card">
+      <div class="card-body login-card-body">
+        <p class="login-box-msg">Silakan Login</p>
+  
+        <form action="../admin/resources/views/admin/areaparkir.blade.php" method="POST">
+          @csrf
+          <div class="input-group mb-3">
+              <input type="text" name="username" class="form-control" placeholder="Username">
+              <div class="input-group-append">
+                  <div class="input-group-text">
+                      <span class="fas fa-envelope"></span>
+                  </div>
+              </div>
+          </div>
+          <div class="input-group mb-3">
+              <input type="password" name="password" class="form-control" placeholder="Password">
+              <div class="input-group-append">
+                  <div class="input-group-text">
+                      <span class="fas fa-lock"></span>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-8">
+                  <div class="icheck-primary">
+                      <input type="checkbox" id="remember">
+                      <label for="remember">
+                          Remember Me
+                      </label>
+                  </div>
+              </div>
+              <div class="col-4">
+                  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+              </div>
+          </div>
+      </form>
+      
+      
+      
+      
+  
+  
+        <p class="mb-1">
+          <a href="forgot-password.html">I forgot my password</a>
+        </p>
+       
+      </div>
+      <!-- /.login-card-body -->
+    </div>
+  </div>
+  <!-- /.login-box -->
+  
+  <!-- jQuery -->
+  <script src="plugins/jquery/jquery.min.js"></script>
+  <!-- Bootstrap 4 -->
+  <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- AdminLTE App -->
+  <script src="dist/js/adminlte.min.js"></script>
+  </body>
+  </html>
+   <!-- info section -->
+   <section class="info_section ">
+
+    <div class="container">
+      <div class="info_top ">
+        <div class="row ">
+          <div class="col-md-6 col-lg-3 info_col">
+            <div class="info_form">
+              <h4>
+                Stay Connected
+              </h4>
+              <form action="">
+                <input type="text" placeholder="Enter Your Email" />
+                <button type="submit">
+                  Submit
+                </button>
+              </form>
+              <div class="social_box">
+                <a href="">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 info_col ">
+            <div class="info_detail">
+              <h4>
+                About Us
+              </h4>
+              <p>
+                "Sempurnakan perjalanan kampus Anda dengan parkir yang tak terhambat! Layanan parkir kami dirancang untuk memberikan kemudahan dan aksesibilitas maksimal bagi semua mahasiswa dan staf."
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 info_col ">
+            <div class="info_detail">
+              <h4>
+                Online Booking
+              </h4>
+              <p>
+                Dana : 083801632102 
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 info_col">
+            <h4>
+              Contact us
+            </h4>
+            <p>
+              Admin Parkir STT Terpadu Nurul Fikri
+            </p>
+            <div class="contact_nav">
+              <a href="https://maps.app.goo.gl/rfkF9Ba6yuXhEvVx6">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                  <p>
+                    Kampus A : Jln, Situ Indah 1116, Tugu, Cimanggis, Depok, Jawa Barat
+                  </p>
+                  <p>
+                    Kampus B : Jln. Raya Lenteng Agung No.20-21, RT.4/RW.1, Srengseng Sawah, Kec.Jagakarsa,Jakarta Selatan
+                  </p>
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call : 085883657462
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  Email : Adminparkir@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+        // Lakukan AJAX request untuk submit form
+        fetch('/login', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+            },
+            body: JSON.stringify({
+                username: document.querySelector('input[name="username"]').value,
+                password: document.querySelector('input[name="password"]').value,
+            })
+        })
+        .then(response => {
+            if (response.ok) {
+                // Redirect ke halaman areaparkir.blade.php jika login berhasil
+                window.location.href = '/areaparkir';
+            } else {
+                throw new Error('Login failed');
+            }
+        })
+        .catch(error => {
+            console.error('Login error:', error);
+            alert('Login failed. Please try again.');
+        });
+    });
+</script>
